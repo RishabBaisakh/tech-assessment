@@ -1,0 +1,87 @@
+body {
+  margin: 0px 200px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.add-button,
+.vote {
+  border-radius: 10px;
+  width: 40px;
+  padding: 10px;
+}
+
+.add-button {
+  background-color: beige;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 25px;
+  background-color: #2574f2;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+button:active {
+  background-color: #2574f2c1;
+}
+
+/* --------- Upvote list --------- */
+
+.upvote-list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.upvote-list > .list {
+  display: flex;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+
+/* ----------- Upvote ------------ */
+.upvote {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #f4f6f8;
+  border-radius: 5px;
+}
+
+.upvote > img {
+  color: #343a40;
+}
+
+.vote-down {
+  background-color: #e5e8fd;
+}
+
+.vote-down > img {
+  color: #253cf2;
+}
